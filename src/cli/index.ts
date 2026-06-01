@@ -5,9 +5,7 @@
  * Minimal stub — full CLI in milestone 2.
  */
 
-const { parseArgs } = require('node:util')
-
-function main() {
+function main(): void {
   const args = process.argv.slice(2)
 
   if (args.length === 0 || args[0] === '--help' || args[0] === '-h') {
